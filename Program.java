@@ -1,4 +1,4 @@
-package geek_java_oop_lesson6;
+package geek_java_oop_lesson6;  // Имя пакета
 
 public class Program {
 
@@ -8,9 +8,8 @@ public class Program {
      */
     public static void main(String[] args) {
 
-        Order order = new Order();
-        order.inputFromConsole();
-        order.saveToJson();
+        Order order = new Order();  // Создание нового объекта заказа
+        order.inputFromConsole();  // Ввод данных заказа с консоли
+        order.saveToJson();  // Сохранение данных заказа в файл в формате JSON
     }
-
 }
